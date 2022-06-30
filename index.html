@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfi</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="style.css">
+</head>
+<body>
+    <center>
+        <a href="" id="link" download="selfi.png"></a>
+        <section id="inicio">
+            <h1>App de voz para tomar selfis</h1>
+            <p></p>
+            <h4>has click para permitir permisos cuando aparesca la ventana emergente</h4>
+        </section>
+        <section id="voz">
+            <h3>di selfi</h3>
+            <h3>Tu salida de voz :</h3>
+            <p></p>
+            <textarea id="texto" readonly="true"></textarea>
+        </section>
+        <section id="selfi">
+            <h3>has click en el boton iniciar</h3>
+            <p></p>
+            <button id="iniciar" onclick="iniciar()">Tomar Selfi</button>
+            <p></p>
+            <h3>Tu camara</h3>
+            <div id="camara">
+
+            </div>
+            <p></p>
+            <h3>Tu selfi aparecera aqui</h3>
+            <div id="resultado">
+
+            </div>
+        </section>
+    </center>    
+    <script src="main.js"></script>
+</body>
+</html>
